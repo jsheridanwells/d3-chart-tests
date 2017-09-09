@@ -1,5 +1,4 @@
 'use strict';
-
 //array of data to illustrate
 let results = [20, 30, 40, 10];
 
