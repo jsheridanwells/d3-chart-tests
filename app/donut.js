@@ -1,5 +1,6 @@
 'use strict';
 
+//-------------------DONUT CHART -------------------------//
 //array of data to illustrate
 let results = [20, 30, 40, 10];
 
@@ -28,3 +29,4 @@ svg.append('g').attr('transform', 'translate(200,175)')
 		.append('path').attr('d', arc)
 		//for each path, change the fill color using color function
 		.style('fill', (d,i) => {return color(i);});
+
